@@ -25,7 +25,7 @@ jobs:
         pip install pytest_bdd
     - name: Run api on pytest
       run: pytest -v step_defs/test_service_steps.py --html=Report/test_demo_report.html
-
+#
 #    - name: Send Email Report
 #      uses: actions/upload-artifact@v2
 #      with:
@@ -37,7 +37,7 @@ jobs:
 #        GMAIL_USERNAME: ${{secrets.GMAIL_USERNAME}}
 #        GMAIL_PASSWORD: ${{secrets.GMAIL_PASSWORD}}
 #
-#        RECIPIENT_EMAIL: aditya.g@tibilsolutions.com  # Replace with the recipient's email
+#        RECIPIENT_EMAIL: nikil56789@gmail.com  # Replace with the recipient's email
 #
 #      run: |
 #        python reports/send_email_script.py $GMAIL_USERNAME $GMAIL_PASSWORD $RECIPIENT_EMAIL

@@ -8,7 +8,7 @@ Feature: Simple api test
 
 
 
-    Examples: Animals
+    Examples:
       | phrase   |
       | entries   |
 
